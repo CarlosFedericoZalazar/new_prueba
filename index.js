@@ -5,6 +5,6 @@ const app = express();
 const enrutadorLibros = require("./auto.route");
 
 // Relacionar el enrutador a la ruta
-app.use(`auto`, enrutadorLibros);
+app.use(`/auto`, enrutadorLibros);
 
 app.listen(3000);
